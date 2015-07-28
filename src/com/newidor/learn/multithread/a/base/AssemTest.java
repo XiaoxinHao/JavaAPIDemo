@@ -1,0 +1,21 @@
+package com.newidor.learn.multithread.a.base;
+
+public class AssemTest {
+	int a, b;
+	volatile int c, d;
+	
+	
+
+	public static void main(String[] args) throws Exception {
+		new AssemTest().test();
+	}
+
+	public void test() {
+		a = 1;
+		b = 2;
+		c = a;
+		d = b;
+		b = 3;
+		c = 2;
+	}
+}
