@@ -49,7 +49,7 @@ public class Commons {
 	
 	public final static String CHARSET_START = "charset=";
 	
-	public final static String SERVER_SAVE_BASE_PATH = "tmp/javaA/upload/";
+	public final static String SERVER_SAVE_BASE_PATH = "tmp/a/upload/";
 	
 	public final static int DEFAULT_BUFFER_LENGTH = 8 * 1024;
 	

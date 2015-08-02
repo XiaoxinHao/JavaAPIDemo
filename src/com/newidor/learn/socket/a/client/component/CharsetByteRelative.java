@@ -1,7 +1,6 @@
 package com.newidor.learn.socket.a.client.component;
 
 
-import static com.newidor.learn.socket.a.Commons.*;
 
 public class CharsetByteRelative {
 

@@ -103,6 +103,7 @@ public class SocketWrapper implements Closeable {
 		return new String(bytes , charset);
 	}
 	
+	//从本地读取文件，发送给Socket的outputStream
 	public void writeFile(String path) throws IOException {
 		File file = new File(path);
 		FileInputStream fileInputStream = new FileInputStream(file);

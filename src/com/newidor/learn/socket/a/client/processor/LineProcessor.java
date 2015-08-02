@@ -9,6 +9,11 @@ import com.newidor.learn.socket.a.client.sender.Sendable;
 
 import static com.newidor.learn.socket.a.Commons.*;
 
+/**
+ * 根据输入的第一个参数，生成不同Sender对象
+ * @author Administrator
+ *
+ */
 public class LineProcessor {
 	
 	private String []tokens;
